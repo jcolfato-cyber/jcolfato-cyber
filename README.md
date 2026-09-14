@@ -1,216 +1,236 @@
 # Cybersecurity Portfolio | Jon Carlo Yuzon Olfato
 
-Cybersecurity-focused technology professional currently completing a Master of Business Information Systems (Cyber Security) in Australia.
+Sydney-based cybersecurity-focused technology professional completing a Master of Business Information Systems (Cyber Security) in December 2026, with hands-on experience across enterprise security infrastructure, Identity and Access Management (IAM), security assessment, threat modelling, and security control validation, while developing further capability in Governance, Risk and Compliance (GRC), cloud security, and security operations.
 
-Before transitioning into cybersecurity, I worked at Samsung Electro-Mechanics Philippines as a Facilities Engineer (Critical Infrastructure & ISO 50001 Compliance) and Manufacturing Engineer (Process Compliance & Data Integrity).
+My current portfolio is centred on an interconnected enterprise banking cybersecurity environment designed to demonstrate the progression from secure infrastructure and identity architecture through technology risk, cloud security, and security monitoring.
 
-My experience included enterprise reporting systems, operational analytics, compliance initiatives, documentation control, process improvement activities, and collaboration with engineering and IT stakeholders.
+Before transitioning into cybersecurity, I worked in engineering roles at Samsung Electro-Mechanics Philippines, where my experience included operational analytics, compliance initiatives, documentation control, process improvement, enterprise reporting, and collaboration across engineering and IT stakeholders.
 
-This background developed my understanding of environments where operational reliability, governance, audit readiness, data integrity, and process discipline are critical.
+This background developed a strong appreciation for operational reliability, governance, audit readiness, data integrity, and disciplined technical documentation.
 
-My cybersecurity focus areas include:
+## Education
 
-- Identity and Access Management (IAM)
-- Security Operations
-- Governance, Risk and Compliance (GRC)
-- Vulnerability Management
-- Threat Modelling
-- Enterprise Security Architecture
-- Cloud Security
+### Master of Business Information Systems (Cyber Security)
 
-This portfolio demonstrates hands-on cybersecurity projects covering enterprise infrastructure, identity management, security architecture, governance, cloud security, and security operations.
+Australian Institute of Higher Education, Australia
 
----
+- Expected completion: **December 2026**
+- Current GPA: **6.36 / 7.00**
 
-## Certifications & Professional Development
+## Enterprise Banking Cybersecurity Portfolio
 
-### Google Cybersecurity Professional Certificate
+The Enterprise Banking Cybersecurity Portfolio is a five-repository security programme built around an interconnected banking laboratory environment.
 
-Completed: May 2026
+Rather than treating each repository as an isolated exercise, the portfolio progressively develops the same enterprise environment across infrastructure security, identity architecture, governance and technology risk, cloud security, and security operations.
 
-Credential: [Credly Verified Credential](https://www.credly.com/badges/fd69647e-8cef-4974-ad6c-a89f5ddab537)
+The programme follows a practical security lifecycle:
 
----
-
-## Technical Skills
-
-### Identity & Access Management
-
-- Active Directory
-- Windows Server 2022
-- Group Policy Objects (GPO)
-- User and Group Management
-- Role-Based Access Control (RBAC)
-- Least Privilege Access
-- Authentication Controls
-- Identity Governance Concepts
-
-### Security Operations
-
-- Security Monitoring
-- Log Analysis
-- Incident Investigation Concepts
-- Network Traffic Analysis
-- Vulnerability Assessment
-- Security Hardening
-- Detection Engineering Concepts
-
-### Governance, Risk & Compliance
-
-- Risk Assessment
-- Security Control Mapping
-- ACSC Essential Eight
-- APRA CPS 234 Concepts
-- NIST Cybersecurity Framework Concepts
-- Security Policy Assessment
-- Control Gap Analysis
-
-### Security Tools
-
-- Wireshark
-- Nmap
-- Nessus
-- Nikto
-- Amass
-- WHOIS
-- DIG
-- OWASP Threat Dragon
-- Microsoft Sentinel Concepts
-
-### Systems & Platforms
-
-- Windows Server 2022
-- Windows 11
-- Linux
-- Ubuntu
-- Kali Linux
-- UTM Virtualisation
-- GitHub
-- AWS Cloud
-  
----
-
-## Security Framework Alignment
-
-Projects within this portfolio reference industry security frameworks and control principles including:
-
-- ACSC Essential Eight
-- ISM Security Controls
-- APRA CPS 234
-- NIST Cybersecurity Framework
-- ISO 27001 principles
-  
----
-
-## Portfolio Architecture
-
-This portfolio is structured into standalone repositories representing different areas of enterprise cybersecurity.
-
----
-
-## Enterprise Banking Security Sandbox
-
-The Enterprise Banking Security Sandbox is an interconnected cybersecurity environment designed to progressively simulate enterprise security engineering practices within a banking organisation.
-
-The environment begins with the Secure Enterprise Network Lab foundation and will progressively implement identity management, governance, cloud security, and security operations capabilities.
+### Infrastructure → Identity → Governance → Cloud → Detection
 
 | Repository | Security Domain | Status |
 | --- | --- | --- |
-| [Secure Enterprise Network Lab](https://github.com/jcolfato-cyber/secure-enterprise-network-lab) | Core Infrastructure Foundation | Completed |
-| Enterprise Banking IAM Architecture | Identity & Access Management | Planned |
-| Enterprise Banking GRC Assessment | Governance, Risk & Compliance | Planned |
-| Cloud Banking Infrastructure Hardening | Cloud Security | Planned |
-| Enterprise Banking SIEM Sentinel | Security Operations & Monitoring | Planned |
-
----
+| [Secure Enterprise Network Lab](https://github.com/jcolfato-cyber/secure-enterprise-network-lab) | Network Security / Infrastructure Security | **Completed** |
+| [Enterprise Banking IAM Architecture](https://github.com/jcolfato-cyber/enterprise-banking-iam-architecture) | IAM / Active Directory / Privileged Access | **Completed** |
+| Enterprise Banking GRC Assessment | GRC / Technology Risk | **Next** |
+| Cloud Banking Infrastructure Hardening | Cloud Security / Infrastructure Hardening | **Planned** |
+| Enterprise Banking Security Monitoring & AD Threat Detection | Security Operations / SIEM / Detection Engineering | **Planned** |
 
 ### Secure Enterprise Network Lab
 
-Repository: [secure-enterprise-network-lab](https://github.com/jcolfato-cyber/secure-enterprise-network-lab)
+**Repository:** [secure-enterprise-network-lab](https://github.com/jcolfato-cyber/secure-enterprise-network-lab)
 
-Built the foundational enterprise infrastructure environment supporting the banking security sandbox.
+Enterprise UTM/QEMU infrastructure lab providing the isolated network, Active Directory, and system foundation for the interconnected banking cybersecurity portfolio.
 
-The environment establishes the network and system foundation required for future IAM, GRC, cloud security, and SIEM projects.
+The environment consists of Windows Server 2022, Windows 11 Pro, Ubuntu Server, and Kali Linux systems operating across an isolated Host-Only `10.10.10.0/24` network.
 
-Demonstrated:
+Key implementation areas include:
 
-- Enterprise network architecture
-- Windows Server 2022 infrastructure
-- banking.lab Active Directory domain foundation
-- DNS configuration
-- Network segmentation
-- Infrastructure documentation
+- UTM/QEMU enterprise virtual infrastructure
+- Windows Server 2022 Active Directory Domain Services and DNS
+- `banking.lab` Active Directory domain
+- Windows 11 corporate workstation integration
+- Ubuntu security monitoring foundation
+- Kali Linux controlled security-testing workstation
+- Static IPv4 addressing and Host-Only network isolation
+- Cross-platform connectivity and infrastructure validation
+- Evidence-backed architecture and deployment documentation
 
----
+### Enterprise Banking IAM Architecture
 
-## Academic Cybersecurity Projects
+**Repository:** [enterprise-banking-iam-architecture](https://github.com/jcolfato-cyber/enterprise-banking-iam-architecture)
 
-The following projects were completed during postgraduate cybersecurity studies and represent foundational security engineering implementations of enterprise security concepts.
+Enterprise Identity and Access Management architecture implemented within the `banking.lab` Active Directory environment.
 
----
+The project extends the infrastructure foundation into a structured identity control plane incorporating administrative tiering, role-based access, privileged identities, service identities, Group Policy security controls, PowerShell provisioning, and independent security assurance.
+
+Key implementation areas include:
+
+- Tiered Active Directory architecture across Tier 0, Tier 1, and Tier 2 administrative boundaries
+- Role-Based Access Control (RBAC)
+- AGDLP-based access assignment
+- Privileged administrative separation
+- Standard, privileged, and service identity governance
+- PowerShell-based identity provisioning
+- Group Policy security controls
+- Password and account lockout policy
+- LDAP signing enforcement
+- Service-account interactive logon restrictions
+- Independent read-only IAM assurance framework
+
+Final assurance outcome: `14 PASS | 0 FAIL | 2 WARN`
+
+The project closed with zero mandatory control failures and a documented residual observation retained for transparency.
+
+### Enterprise Banking GRC Assessment
+
+Repository: Not yet published
+
+The next portfolio repository will assess the implemented banking environment from governance, technology risk, and security-control perspectives.
+
+Framework hierarchy:
+
+- **APRA CPS 234** — primary regulatory and prudential lens
+- **ACSC Essential Eight** — technical security maturity assessment
+- **ISO/IEC 27001:2022** — supporting governance and ISMS control alignment
+
+ISO/IEC 27001:2022 will be used for defensible control alignment and gap assessment rather than represented as a certification-style compliance audit.
+
+The assessment will use evidence from the implemented banking environment to identify risk, evaluate control maturity, document security gaps, and establish remediation priorities.
+
+### Cloud Banking Infrastructure Hardening
+
+Repository: Not yet published
+
+This repository will extend the banking security architecture into AWS and focus on secure cloud infrastructure design and configuration hardening.
+
+Planned areas include:
+
+- AWS security architecture
+- Cloud Identity and Access Management
+- Network security and segmentation
+- Logging and security visibility
+- Encryption and data protection
+- Configuration hardening
+- Security validation
+- Recognised cloud security and hardening practices
+
+### Enterprise Banking Security Monitoring & AD Threat Detection
+
+Repository: Not yet published
+
+The final banking portfolio repository will complete the defensive lifecycle by introducing centralised security monitoring, detection engineering, and identity-threat validation.
+
+Planned areas include:
+
+- Microsoft Sentinel
+- Security telemetry collection
+- Windows and Linux log analysis
+- Active Directory security monitoring
+- Detection engineering
+- Suspicious identity behaviour detection
+- Alert investigation
+- Security control validation
+- Correlation of attack behaviours with implemented defensive controls
+
+## Technical Capabilities
+
+### Identity & Access Management
+
+- Active Directory Domain Services
+- Active Directory architecture
+- Organisational Unit design
+- Role-Based Access Control
+- AGDLP access modelling
+- Administrative tiering
+- Privileged access separation
+- Group Policy
+- Identity provisioning
+- Service-account controls
+- Least privilege
+- PowerShell automation and assurance
+
+### Infrastructure & Network Security
+
+- Windows Server 2022
+- Windows 11 Pro
+- Ubuntu Server
+- Kali Linux
+- UTM/QEMU virtualisation
+- Mixed x86_64 and ARM64 environments
+- Host-Only network architecture
+- Static IPv4 addressing
+- DNS and domain infrastructure
+- Infrastructure validation
+- Technical evidence collection
+
+### Security Assessment & Architecture
+
+- Security control validation
+- Vulnerability assessment
+- Network reconnaissance
+- Threat modelling
+- STRIDE methodology
+- Trust boundary analysis
+- Security architecture review
+- Risk-based remediation planning
+
+### Governance, Risk & Compliance
+
+- Technology risk assessment
+- Security control mapping
+- Control gap analysis
+- APRA CPS 234 concepts
+- ACSC Essential Eight
+- ISO/IEC 27001:2022 control-alignment concepts
+- Security documentation and evidence management
+
+### Tools & Platforms
+
+- PowerShell
+- Git and GitHub
+- Visual Studio Code
+- Wireshark
+- Nmap
+- Nessus
+- OWASP Threat Dragon
+- Windows Server
+- Linux
+- UTM
+- QEMU
+
+## Certifications & Professional Development
+
+My certification and professional development roadmap complements the portfolio by building structured knowledge across security, governance, and cloud technologies alongside hands-on implementation.
+
+| Certification / Development | Status | Target | Focus |
+| --- | --- | --- | --- |
+| [Google Cybersecurity Professional Certificate](https://www.credly.com/badges/fd69647e-8cef-4974-ad6c-a89f5ddab537) | **Completed** | May 2026 | Cybersecurity fundamentals, SIEM concepts, incident response and risk |
+| CompTIA Security+ | **In Progress** | September 2026 | Security operations, threats, vulnerabilities and security controls |
+| GRC Mastery | Planned | October 2026 | Governance, technology risk, policy and compliance |
+| Certificate of Cloud Security Knowledge (CCSK v5) | Planned | December 2026 | Cloud architecture, governance and security controls |
+| AWS Certified Solutions Architect – Associate | Planned | Early 2027 | AWS architecture, infrastructure design and resilient cloud solutions |
+
+## Earlier Cybersecurity Projects
+
+These repositories represent earlier hands-on cybersecurity work completed before the development of the interconnected enterprise banking portfolio.
 
 ### Hospital Active Directory Security Lab
 
-Repository: [hospital-active-directory-lab](https://github.com/jcolfato-cyber/hospital-active-directory-lab)
+**Repository:** [hospital-active-directory-lab](https://github.com/jcolfato-cyber/hospital-active-directory-lab)
 
-Implemented an enterprise-style Active Directory environment using Windows Server 2022 and Windows 11 virtual machines.
+Built an enterprise-style Windows Server 2022 Active Directory environment using a simulated healthcare organisation.
 
-Demonstrated:
+Implemented organisational unit structures, user and group administration, role-based access, Group Policy restrictions, shared-folder permissions, and a domain-joined Windows 11 workstation.
 
-- Active Directory administration
-- Domain services deployment
-- Organisational Unit (OU) design
-- Group Policy implementation
-- RBAC access control
-- User and group management
-- Least privilege principles
+### Online Banking STRIDE Threat Model
 
----
-
-### Online Banking STRIDE Threat Modeling
-
-Repository: [online-banking-stride-threat-model](https://github.com/jcolfato-cyber/online-banking-stride-threat-model)
+**Repository:** [online-banking-stride-threat-model](https://github.com/jcolfato-cyber/online-banking-stride-threat-model)
 
 Developed a STRIDE threat model for a simulated online banking platform using OWASP Threat Dragon.
 
-Security areas assessed:
+Assessed authentication, trust boundaries, transaction integrity, data protection, availability risk, and security-control requirements across the modelled banking architecture.
 
-- Authentication security
-- Trust boundary analysis
-- Transaction integrity
-- Data protection
-- Availability risks
-- Security control recommendations
+## Connect
 
-Demonstrated:
-
-- Threat identification
-- STRIDE methodology
-- Secure architecture review
-- Risk mitigation planning
-
----
-
-## Professional Development Roadmap
-
-The following roadmap represents my planned progression through cybersecurity certifications, enterprise laboratory projects, and practical security engineering capabilities.
-
-| Step | Type | Initiative | Status | Target | Focus Areas |
-| :--: | --- | --- | --- | --- | --- |
-| 1 | Certification | Google Cybersecurity Professional Certificate | Completed | May 2026 | Security fundamentals, SIEM concepts, incident response, risk management |
-| 2 | Infrastructure Repository | Secure Enterprise Network Lab | Completed | July 2026 | Windows Server 2022 Domain Controller, banking.lab Active Directory domain, Windows 11 Pro Enterprise Endpoint, Ubuntu Server 24.04 LTS, Kali Linux ARM64, isolated 10.10.10.0/24 network, DNS and enterprise network foundation |
-| 3 | Certification | CompTIA Security+ | In Progress | August 2026 | Security operations, threats, vulnerabilities, security controls |
-| 4 | Project Repository | Enterprise Banking IAM Architecture | Planned | September 2026 | Active Directory, OU design, Group Policy, RBAC, least privilege, identity management |
-| 5 | Project Repository | Enterprise Banking GRC Assessment | Planned | September 2026 | ACSC Essential Eight, APRA CPS 234, NIST CSF, risk assessment, security control mapping |
-| 6 | Professional Development | GRC Mastery | Planned | October 2026 | Governance frameworks, policies, compliance, enterprise risk management |
-| 7 | Project Repository | Cloud Banking Infrastructure Hardening | Planned | November 2026 | AWS security, CIS Benchmarks, IAM, cloud hardening, secure infrastructure |
-| 8 | Certification | Certificate of Cloud Security Knowledge (CCSK v5) | Planned | November–December 2026 | Cloud governance, cloud architecture, cloud security principles |
-| 9 | Project Repository | Enterprise Banking SIEM Sentinel | Planned | December 2026 | Microsoft Sentinel, log analysis, detection engineering, incident investigation |
-| 10 | Certification | AWS Certified Solutions Architect – Associate | Planned | Early 2027 | AWS architecture, infrastructure design, resilient cloud solutions |
-
----
-
-## Professional Links
-
-- LinkedIn: [Jon Carlo Yuzon Olfato](https://www.linkedin.com/in/joncarloolfato)
-- GitHub: [jcolfato-cyber](https://github.com/jcolfato-cyber)
+- **LinkedIn:** [Jon Carlo Yuzon Olfato](https://www.linkedin.com/in/joncarloolfato)
+- **GitHub:** [jcolfato-cyber](https://github.com/jcolfato-cyber)
