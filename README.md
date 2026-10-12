@@ -1,6 +1,6 @@
 # Cybersecurity Portfolio | Jon Carlo Yuzon Olfato
 
-Sydney-based cybersecurity-focused technology professional completing a Master of Business Information Systems (Cyber Security) in December 2026, with hands-on experience across enterprise security infrastructure, Identity and Access Management (IAM), security assessment, threat modelling, and security control validation, while developing further capability in Governance, Risk and Compliance (GRC), cloud security, and security operations.
+Sydney-based cybersecurity graduate candidate completing a Master of Business Information Systems (Cyber Security) in December 2026, with CompTIA Security+ certification and enterprise experience spanning governance, compliance, IAM, business systems, and operational analytics. Developing hands-on cybersecurity capabilities through Active Directory, RBAC, Group Policy, PowerShell, infrastructure security, vulnerability assessment, and security assurance, with a focus on Cybersecurity, Technology Risk, GRC, and Systems Analysis.
 
 My current portfolio is centred on an interconnected enterprise banking cybersecurity environment designed to demonstrate the progression from secure infrastructure and identity architecture through technology risk, cloud security, and security monitoring.
 
@@ -15,7 +15,7 @@ This background developed a strong appreciation for operational reliability, gov
 Australian Institute of Higher Education, Australia
 
 - Expected completion: **December 2026**
-- Current GPA: **6.36 / 7.00**
+- Current GPA: **6.50 / 7.00**
 
 ## Enterprise Banking Cybersecurity Portfolio
 
@@ -31,7 +31,7 @@ The programme follows a practical security lifecycle:
 | --- | --- | --- |
 | [Secure Enterprise Network Lab](https://github.com/jcolfato-cyber/secure-enterprise-network-lab) | Network Security / Infrastructure Security | **Completed** |
 | [Enterprise Banking IAM Architecture](https://github.com/jcolfato-cyber/enterprise-banking-iam-architecture) | IAM / Active Directory / Privileged Access | **Completed** |
-| Enterprise Banking GRC Assessment | GRC / Technology Risk | **Next** |
+| Enterprise Banking GRC Assessment | GRC / Technology Risk | **Design Complete - Implementation in progress** |
 | Cloud Banking Infrastructure Hardening | Cloud Security / Infrastructure Hardening | **Planned** |
 | Enterprise Banking Security Monitoring & AD Threat Detection | Security Operations / SIEM / Detection Engineering | **Planned** |
 
@@ -66,8 +66,7 @@ The project extends the infrastructure foundation into a structured identity con
 Key implementation areas include:
 
 - Tiered Active Directory architecture across Tier 0, Tier 1, and Tier 2 administrative boundaries
-- Role-Based Access Control (RBAC)
-- AGDLP-based access assignment
+- Role-Based Access Control (RBAC) through Active Directory Global Security Groups
 - Privileged administrative separation
 - Standard, privileged, and service identity governance
 - PowerShell-based identity provisioning
@@ -85,7 +84,7 @@ The project closed with zero mandatory control failures and a documented residua
 
 Repository: Not yet published
 
-The next portfolio repository will assess the implemented banking environment from governance, technology risk, and security-control perspectives.
+The current portfolio project has completed its assessment design and implementation is in progress. It will evaluate the existing banking environment from governance, technology risk, and security-control perspectives.
 
 Framework hierarchy:
 
@@ -139,8 +138,8 @@ Planned areas include:
 - Active Directory Domain Services
 - Active Directory architecture
 - Organisational Unit design
-- Role-Based Access Control
-- AGDLP access modelling
+- Role-Based Access Control (RBAC)
+- Active Directory Global Security Groups
 - Administrative tiering
 - Privileged access separation
 - Group Policy
@@ -204,9 +203,9 @@ My certification and professional development roadmap complements the portfolio 
 
 | Certification / Development | Status | Target | Focus |
 | --- | --- | --- | --- |
-| [Google Cybersecurity Professional Certificate](https://www.credly.com/badges/fd69647e-8cef-4974-ad6c-a89f5ddab537) | **Completed** | May 2026 | Cybersecurity fundamentals, SIEM concepts, incident response and risk |
-| CompTIA Security+ | **In Progress** | September 2026 | Security operations, threats, vulnerabilities and security controls |
-| GRC Mastery | Planned | October 2026 | Governance, technology risk, policy and compliance |
+| [CompTIA Security+ (SY0-701)](https://www.credly.com/badges/7293ae0d-fb82-4b78-9743-39c3d8e70929/public_url) | **Completed** | October 2026 | Security operations, threats, vulnerabilities and security controls |
+| [Google Cybersecurity Professional Certificate](https://www.credly.com/badges/fd69647e-8cef-4974-ad6c-a89f5ddab537/public_url) | **Completed** | May 2026 | Cybersecurity fundamentals, SIEM concepts, incident response and risk |
+| GRC Mastery | Planned | November 2026 | Governance, technology risk, policy and compliance |
 | Certificate of Cloud Security Knowledge (CCSK v5) | Planned | December 2026 | Cloud architecture, governance and security controls |
 | AWS Certified Solutions Architect – Associate | Planned | Early 2027 | AWS architecture, infrastructure design and resilient cloud solutions |
 
