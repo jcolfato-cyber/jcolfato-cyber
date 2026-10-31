@@ -29,9 +29,9 @@ The programme follows a practical security lifecycle:
 
 | Repository | Security Domain | Status |
 | --- | --- | --- |
-| [Secure Enterprise Network Lab](https://github.com/jcolfato-cyber/secure-enterprise-network-lab) | Network Security / Infrastructure Security | **Completed** |
-| [Enterprise Banking IAM Architecture](https://github.com/jcolfato-cyber/enterprise-banking-iam-architecture) | IAM / Active Directory / Privileged Access | **Completed** |
-| Enterprise Banking GRC Assessment | GRC / Technology Risk | **Design Complete - Implementation in progress** |
+| [Secure Enterprise Network Lab](https://github.com/jcolfato-cyber/secure-enterprise-network-lab) | Network Security / Infrastructure Security | **Completed and Closed** |
+| [Enterprise Banking IAM Architecture](https://github.com/jcolfato-cyber/enterprise-banking-iam-architecture) | IAM / Active Directory / Privileged Access | **Completed and Closed** |
+| [Enterprise Banking GRC Assessment](https://github.com/jcolfato-cyber/enterprise-banking-grc-assessment) | GRC / Technology Risk | **Foundation and Notion registers established; preparing for evidence review** |
 | Cloud Banking Infrastructure Hardening | Cloud Security / Infrastructure Hardening | **Planned** |
 | Enterprise Banking Security Monitoring & AD Threat Detection | Security Operations / SIEM / Detection Engineering | **Planned** |
 
@@ -82,19 +82,32 @@ The project closed with zero mandatory control failures and a documented residua
 
 ### Enterprise Banking GRC Assessment
 
-Repository: Not yet published
+**Repository:** [enterprise-banking-grc-assessment](https://github.com/jcolfato-cyber/enterprise-banking-grc-assessment)
 
-The current portfolio project has completed its assessment design and implementation is in progress. It will evaluate the existing banking environment from governance, technology risk, and security-control perspectives.
+**Current status:** The assessment foundation and seven-register Notion GRC workspace are complete. Final readiness checks are underway before reviewing and registering technical evidence from the completed infrastructure and IAM projects.
 
-Framework hierarchy:
+An evidence-based Governance, Risk and Compliance assessment of the existing simulated `banking.lab` environment, drawing on the completed infrastructure and IAM implementations from Projects 1 and 2.
 
-- **APRA CPS 234** — primary regulatory and prudential lens
-- **ACSC Essential Eight** — technical security maturity assessment
-- **ISO/IEC 27001:2022** — supporting governance and ISMS control alignment
+The assessment uses the following framework hierarchy:
 
-ISO/IEC 27001:2022 will be used for defensible control alignment and gap assessment rather than represented as a certification-style compliance audit.
+- **APRA CPS 234** — primary prudential requirement assessment.
+- **ASD Essentials for enterprise IT** (`E4EIT v2026.10.15`) — technical security effectiveness assessment.
+- **ISO/IEC 27001:2022** — supporting governance, ISMS and control alignment.
 
-The assessment will use evidence from the implemented banking environment to identify risk, evaluate control maturity, document security gaps, and establish remediation priorities.
+The completed assessment foundation includes:
+
+- A seven-register relational GRC architecture implemented in Notion.
+- Asset, Control, Evidence, Framework Assessment, Finding, Risk and Treatment Registers.
+- Sixteen validated bidirectional relationship pairs.
+- Framework-specific views for APRA CPS 234, ASD Essentials and ISO/IEC 27001:2022.
+- Documented assessment scope, framework baselines, methodology and data model.
+- Project-defined inherent and residual risk calculation formulas, subsequently revalidated through seven successful test cases.
+
+**Foundation closure:** GitHub commit `62a5f83`.
+
+The next operational stage will establish the asset, control and evidence baseline before conducting framework assessments, consolidating findings, evaluating risks and recommending treatments.
+
+The project does not claim formal regulatory compliance, ISO certification, completed operational security effectiveness assessments or independent external assurance.
 
 ### Cloud Banking Infrastructure Hardening
 
@@ -179,7 +192,7 @@ Planned areas include:
 - Security control mapping
 - Control gap analysis
 - APRA CPS 234 concepts
-- ACSC Essential Eight
+- ASD Essentials for enterprise IT
 - ISO/IEC 27001:2022 control-alignment concepts
 - Security documentation and evidence management
 
